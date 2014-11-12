@@ -1,0 +1,108 @@
+<!--<h1>Hello, Rails!</h1>-->
+<!--<p>Find me in app/views/welcome/index.html.erb</p>-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>This is Club Fashionista</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style type="text/css">
+  h1 {color:#00E5EE;}
+  </style>
+
+</head>
+
+<body>
+
+	<a href="#style">Style Section</a> <!--comment: this takes you another part of the page-->
+
+	<!--comment:<div>My name is Elma, and I am trying div.</div>-->
+	<!--comment: this goes into the style section:
+	div {border: 2px solid red;
+  		position: absolute;
+  		width: 300px
+  		top: 40px;
+  		left: 35px;}-->
+
+	<h1>This Is the Club Fashionista Index Page</h1> 
+	<p class="redtext">This is my first pagraph paragraph. Now, let's blog...</p>
+	<a href="second.html">Click me to go to the second page!</a>
+	<!--comment: <hr /> this means line break-->
+
+	<h2>I love Club Fashionista!</h2> 
+	<p class="greengoblins"> This is the <strong> second </strong> pagraph. <br />This is my <em>third pagraph</em> </p>
+	<p> Hi my <em>name</em> is Elma, and I am desining Club Fashionista </p>
+	<!--comment: change this pagraph later-->
+
+	<a href="http://www.clubfashionista.com/">This will be a link to Club Fashionista</a>
+	<!--c<a href="second.html">This is the second page</a>-->
+
+	<h3>This is the third header</h3> 
+
+	<h4> My name is Elma.</h4>
+
+	<p> <a name="style"></a>This is the <strong> third</strong> pagraph. <br />This is my <em>fourth pagraph</em> </p> <!--comment: this takes you another part of the page-->
+	<p> Hi my <em>name</em> is Elma, and I am designing Club Fashionista </p>
+
+	<p> <a href="mailto:elmab@clubfashionista.com">E-mail Club Fashionista</a> </p>
+
+	<p> <a href="http://www.clubfashionista.com/" title="Awsome Blogging Platform">Club Fashionista</a> </p>
+	<!--comment: this is called the tool tip-->
+
+	<a href="http://www.clubfashionista.com/"><img src="/CF.jpg" width="100" height="120"/></a>
+
+	<a href="http://www.clubfashionista.com/"><img src="/Logo1facebook.jpg" width="100" height="120"/></a>
+
+	<table border="1" width="100%" cellpadding="10">
+		<tr>
+			<th colspan="3"><h3>Club Fashionista Blogging</h3></th>
+		</tr>
+		<tr>
+			<th>Bloggers</th>
+			<th>Passion</th>
+			<th>Perks</th>
+		</tr>
+		<tr>
+			<td>country</td>
+			<td>fashion</td>
+			<td>giveaways</td>
+		</tr>
+		<tr>
+			<td>gender</td>
+			<td>beauty</td>
+			<td>sale of the day</td>
+		</tr>
+	</table> 
+
+<ul>
+	<li>My wishlist</li>
+	<li>paintings</li>
+	<li>apartment</li>
+	<li>comfy sofas</li>
+</ul>
+
+<ol>
+	<li>How to have a wonderful day</li>
+	<li>Workout to feel strong</li>
+	<li>Dress-up</li>
+	<li>Read</li>
+	<li>Healthy meal</li>
+</ol>
+
+<ul>
+	<li>How to stay beautiful</li>
+	<li>Workout</li>
+	<li>Meditate</li>
+	<li>Go after your dreams</li>
+	<li>Eat healthy</li>
+	<li>Respect</li>
+</ul>
+
+<%= yield %>
+
+</body>
+
+</html>

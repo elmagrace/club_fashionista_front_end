@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title>This is Club Fashionista</title>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+  	<style type="text/css">
+		#foodie {border: 2px solid olive;
+		position: absolute;
+		width: 150px;
+		height: 20px;
+		top: 40px;
+		left: 1000px;}
+
+		#interiordesign {border: 2px solid olive;
+		position: absolute;
+		width: 150px;
+		height: 20px;
+		top: 80px;
+		left: 1000px;}
+
+		img {max-height: 200px;
+			max-width: 200px;}
+
+		a {height: 20px}
+
+		form {color: #2F4F4F;}
+
+  	</style>
+
+</head>
+<body>
+
+	<h1>This is Club Fashionista's Second Page</h1> 
+	<a href="index.html">Click me to go to index</a>
+
+	<form> <!--comment: action="dosomething" method="post" is the code for linking the database from the models folder to store the user data-->
+
+		<br/>
+		Username: <input type="text" name="username" size="25" 
+		maxlength="25" value="Enter email here..."/>
+
+		<br/>
+		<br/>
+		Male: <input type="radio" name="sex" value="male">
+		Female: <input type="radio" name="sex" value="female">
+
+		<br/>
+		<p><strong>Favorite blogging topics?</strong></p>
+		Interior design <input type="checkbox" name="bloggingtopics" value="interiordesign"/>
+		Beauty <input type="checkbox" name="bloggingtopics" value="beauty"/>
+		Fashion <input type="checkbox" name="bloggingtopics" value="fashion"/>
+
+		<br/>
+		<br/>
+		<p><strong>Your location?</strong></p>
+		<select name="location">
+			<option value="unitedstates">United States</option>
+			<option value="germany">Germany</option>
+			<option value="bosnia">Bosnia</option>
+			<option value="france">France</option>
+			<option value="spain">Spain</option>
+			<option value="unitedkingdom">United Kingdom</option>
+		</select>
+		
+		<br/>
+		<br/>
+		<p><strong>Tell me about yourself...</strong></p>
+
+		<textarea name="bio" rows="8" cols="30">
+		Your story...
+		</textarea>
+
+		<br/>
+		<br/>
+		Password: <input type="password" name="password"/>
+
+		<p><strong>Now submit a file!</strong></p>
+		<input type="file" name="elmasfile"/>
+		
+		<br/>
+		<input type="submit" value="Submit!">
+
+	</form>
+
+	<div id="foodie"> Foodie</div>
+	<div id="interiordesign">Interior Design</div>
+
+	<p><img src="/denim.jpg"></p>
+	<p><img src="/cab.jpg"></p>
+	<p><img src="/nyc.jpg"></p>
+
+</body>
+</html>

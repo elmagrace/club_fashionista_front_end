@@ -1,0 +1,31 @@
+h1 {color:#03A89E; font-family: arial;}
+p {line-height: 125%;}
+ul {font-weight: bold; list-style-type: circle; border: 1px solid olive;}
+ol {font-style: italic;}
+h1 {text-align: center;}
+h2 {background-color:#03A89E;
+	padding: 15px;
+	border-color:#8B0A50;
+	border-width: 3px;
+	width: 200px;
+	}
+h4 {background-color: #03A89E;
+		color: white;
+		width: 300px;
+		width: 200px;}
+body {
+	background-color: #C1CDC1; 
+	color: #FFFFFF;
+	background-image: url(/CF.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 20px;
+	}
+a:link{color:#8B8B83;
+	text-decoration: none;}
+a:visited {color: #708090;}
+a:hover {background-color: #BDFCC9;
+		color:#8B8B83;
+		text-decoration: underline;
+		font-weight: bold;}
+a:active {background-color: #FF83FA;}
+table {border: 3px #BDB76B;}
